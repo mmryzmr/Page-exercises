@@ -1,0 +1,268 @@
+/*
+html,body{
+    width:100%;
+    height:100%;
+}
+.pc_bg{
+    width:100%;
+    height:100%;
+    background: url("../images/pcBg.png") no-repeat;
+    background-size: 100% 100%;
+}
+.pc_main{
+    width:55%;
+    height:100%;
+    background: blueviolet;
+    margin:0 auto;
+    overflow: hidden;
+}
+.logo{
+    width:14.7619%;
+    !*height:7.0476%;*!
+    height:7.0476%;
+    background: url("../images/phoneLogo.png") no-repeat;
+    background-size: 100% 100%;
+    margin-top:1.5238%;
+    margin-left:2.2857%
+}
+.title{
+    width:69.7143%;
+    height:9.301%;
+    background: url("../images/phoneTile.png") no-repeat;
+    background-size: 100% 100%;
+    margin:-1.3476% auto;
+}
+.host{
+
+}
+.host_left .host_left_title,.host_left .host_left_con div{
+    font-size: 14px;
+    color:#fff;
+}
+.host_left div{
+    float: left;
+}
+.host_left_title{
+    border:1px solid #00f4fd;
+    padding:18px;
+}
+.host_left_con div{
+    display: block;
+    line-height: 25px;
+    margin-left:2.0476%;
+}
+.host_left,.host_right{
+    float: left;
+}
+.host_right span{
+    font-size: 14px;
+    color:#fff;
+    display: inline-block;
+}
+.host_right_cb span:nth-child(1),.host_right_zc span:nth-child(1){
+    width:36.4762%;
+    height:35.2965%;
+    border:1px solid #00f4fd;
+    text-align: center;
+}*/
+html,body{
+    width:100%;
+    height:100%;
+}
+.pc_bg{
+    /*width:100%;*/
+    /*height:100%;*/
+    background: url("../images/pcBg.png") no-repeat;
+    background-size: 100% 100%;
+    padding-bottom:105px;
+}
+.pc_main{
+    width:1050px;
+    /*height:auto;*/
+    height:100%;
+    /*background: blueviolet;*/
+    margin:0 auto;
+    /*overflow: hidden;*/
+   padding-top:1.5238%;
+}
+.logo{
+    /*width:14.7619%;*/
+    width:157px;
+    /*height:7.0476%;*/
+    height:74px;
+    background: url("../images/pcLogo.png") no-repeat;
+    background-size: 100% 100%;
+    margin-left:2.2857%
+}
+.title{
+    /*width:69.7143%;*/
+    width:728px;
+    /*height:9.301%;*/
+    height:166px;
+    background: url("../images/pcTitle.png") no-repeat;
+    background-size: 100% 100%;
+    margin:-1.3476% auto;
+}
+.host{
+    /*width:100%;*/
+    height:57px;
+    /*background:sienna;*/
+    /*position: relative;*/
+    margin-top:27px;
+}
+.host .host_left,.host .host_right{
+    float: left;
+}
+.host_left_title,.host_left_con{
+    float: left;
+    font-size: 14px;
+    color:#fff;
+}
+.host_left_title{
+    border:1px solid #00f4fd;
+    padding:20px;
+    margin-left:210px;
+}
+.host_left_con div{
+    line-height: 28px;
+    width:204px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow:ellipsis;
+    /*position: relative;*/
+}
+/*.host_left_con div::after{
+    content:'...';
+    font-size: 14px;
+    position: absolute; bottom: 0; right: 0;
+}*/
+.host_left_con{
+    margin-left:20px;
+}
+.host_right_cb{
+    margin-bottom:5px;
+}
+.host_right_cb span,.host_right_zc span{
+    font-size: 14px;
+    color:#fff;
+    /*display: inline-block;*/
+    display: block;
+    float: left;
+}
+.host_right_cb span:nth-child(1),.host_right_zc span:nth-child(1){
+    width:68px;
+    line-height: 23px;
+    border:1px solid #00f4fd;
+    text-align: center;
+    margin-right:20px;
+    margin-left:91px;
+}
+.host_right_cb span:nth-child(2),.host_right_zc span:nth-child(2){
+    width:204px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow:ellipsis;
+    line-height: 25px;
+}
+.account,.account ul{
+    width:100%;
+}
+.account ul li{
+    float: left;
+    position: relative;
+}
+
+.account ul li:nth-child(1){
+    margin-right:46px;
+}
+.account ul li:nth-child(1),.account ul li:nth-child(2){
+    width:502px;
+    min-height:393px;
+    background: url("../images/smallPieBg.png") no-repeat;
+    background-size: 100% 100%;
+    margin-top:61px;
+}
+.account ul li:nth-child(3),.account ul li:nth-child(4){
+    width:100%;
+    min-height:384px;
+    background: url("../images/bigPieBg.png") no-repeat;
+    background-size: 100% 100%;
+    margin-top:22px;
+}
+.account ul li .account_title{
+    width:100%;
+    line-height:69px;
+    font-size: 22px;
+    color:#ffd935;
+    text-align: center;
+}
+.account ul li:nth-child(1) .pie_wrap,.account ul li:nth-child(2) .pie_wrap{
+    width:100%;
+    height:324px;
+    position: relative;
+}
+.account ul li:nth-child(3) .pie_wrap,.account ul li:nth-child(4) .pie_wrap{
+    width:100%;
+    height:316px;
+    position: relative;
+}
+.account ul li .pie_chart{
+    position:absolute;
+    top:50%;
+    left:50%;
+    width:380px;
+    height:380px;
+    transform:translate(-50%,-50%);
+    z-index: 10;
+    /*background: #acadea;*/
+    /*overflow: hidden;*/
+}
+.account ul li .pie_txt{
+    position:absolute;
+    top:50%;
+    left:50%;
+    width:226px;
+    height:226px;
+    border:1px solid #215ed2;
+    border-radius: 50%;
+    transform:translate(-50%,-50%);
+    overflow: hidden;
+}
+.pie_txt span{
+    display: inline-block;
+    width:100%;
+    text-align: center;
+}
+.pie_txt span:nth-child(1){
+    font-size: 27px;
+    color:#00f4fd;
+    margin-top:93px;
+    margin-bottom:13px;
+}
+.pie_txt span:nth-child(2){
+    font-size: 12px;
+    color:#fff;
+}
+.Sponsors{
+    margin-top:28px;
+}
+.Sponsors ul li{
+    width:135px;
+    height:51px;
+    border: 1px solid #00f4fd;
+    border-radius: 10px;
+    float: left;
+}
+.Sponsors ul li:nth-child(1){
+    margin-left:224px;
+    background: url("../images/china.png") no-repeat center center;
+}
+.Sponsors ul li:nth-child(2){
+    margin-left:78px;
+    margin-right:78px;
+    background: url("../images/dx.png") no-repeat center center;
+}
+.Sponsors ul li:nth-child(3){
+    background: url("../images/yd.png") no-repeat center center;
+}
+
